@@ -44,7 +44,7 @@
                   <button type="submit" class="hero_submit">30일 무료체험 &gt;</button>
                </div>
             </form>
-            <p class="hero_detail">시청할 준비가 되셨나요? 멤버십을 등록하거나<br> 재시작하려면 이메일 주소를 입력하세요.</p>
+            <p class="hero_detail">시청할 준비가 되셨나요? 멤버십을 등록하거나 재시작하려면 이메일 주소를 입력하세요.</p>
             <p class="hero_detail_2">신규 회원만 이 프로모션을 이용하실 수 있습니다.</p>
          </div>
       </section>
@@ -154,7 +154,7 @@
                </li>
                <li class="faq_li" onclick="accOpen(4)">
                   <h3 class="faq_q">
-                     <span class="faq_q_title">넷플릭스에서 어떤 콘텐츠를 시청할 수 있나요?</span>
+                     <span class="faq_q_title">넷플릭스에서 어떤 콘텐츠를 볼 수 있나요?</span>
                      <img class="faq_q_btn" src="img/plus.svg" >
                   </h3>
                   <h4 class="faq_a">
@@ -218,36 +218,31 @@
             </ul>
             <form id="language_form">
                <img src="img/globe.svg">
-               <select id="language" name="language" >
+               <select id="language" name="language" onchange="languageChange();">
                   <option value="korean">한국어</option>
                   <option value="english">English</option>
                </select>
+               <span>&#9662;</span>
             </form>
          </div>
          <div class="footer_infor">
             <p class="footer_brand">Netflix 대한민국</p>
-            <p class="footer_contact">
-               <span>넷플릭스서비시스코리아 유한회사<i></i></span>
-               <span>통신판매업신고번호: 제2018-서울종로-0426호<i></i></span>
+            <p class="foorter_contact">
+               <span>넷플릭스서비시스코리아 유한회사<i></i></span> 
+               <span>통신판매업신고번호: 제2018-서울종로-0426호<i></i></span> 
                <span>전화번호: <a href="tel:00-308-321-0058">00-308-321-0058</a><i></i></span>
                <span>대표: 레지널드 숀 톰프슨</span>
             </p>
             <p class="footer_address">
-               <span>이메일 주소: korea@netflix.com</span>
+               <span>이메일 주소: korea@netflix.com<i></i></span>
                <span>주소: 대한민국 서울특별시 종로구 우정국로 26, 센트로폴리스 A동 20층 우편번호 03161</span>
             </p>
             <p class="footer_etc">
-               <span>클라우드 호스팅: Amazon Web Services Inc.</span>
+               <span>클라우드 호스팅: Amazon Web Services Inc.<i></i></span>
                <span><a href="https://www.ftc.go.kr/www/bizCommView.do?key=232&apv_perm_no=2018300016930200431&pageUnit=10&searchCnd=bup_nm&searchKrwd=%EB%84%B7%ED%94%8C%EB%A6%AD%EC%8A%A4&pageIndex=1">공정거래위원회 웹사이트 링크</a></span>
-               </p>
+            </p>
          </div>
          
-
-
-
-
-
-
       </div>
    </footer>
    <script src="js/index.js"></script>
