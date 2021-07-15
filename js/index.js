@@ -82,9 +82,13 @@ function accOpen(target) {
 function languageChange() {
 
    if ( document.getElementById('language').value == "english" ) {
-      document.location = "https://www.netflix.com/kr-en/";
+      document.location = "index_en.html";
+      // document.location = "https://www.netflix.com/kr-en/";
    } else {
       document.location = "index.html";
    }
    
 }
+
+
+
